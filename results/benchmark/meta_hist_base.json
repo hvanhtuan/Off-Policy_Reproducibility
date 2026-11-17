@@ -1,0 +1,38 @@
+{
+ "args": {
+  "csv": "seg.csv",
+  "out": "results/benchmark",
+  "tag": "hist_base",
+  "e0": 6.0,
+  "expense": 0.2,
+  "grid": 6,
+  "delay": 0.0,
+  "adjust": 0,
+  "reps": 40,
+  "n": 20000,
+  "nboot": 200,
+  "scales": "0.01,0.03,0.10,inf",
+  "link": "logit",
+  "clv": 0.0,
+  "group": 1,
+  "delay_assumed": -1.0,
+  "dataset": "segura",
+  "lr_target": 0.65
+ },
+ "Vtrue": {
+  "oracle": 130.86137538492636,
+  "oracle_cap10": 124.93311372619618,
+  "shift_up": 122.39731272019864,
+  "hold": 107.02520731168087,
+  "engine": 121.56652040475065
+ },
+ "implied_elasticity": 1.9556320093021673,
+ "oracle_action_shares": [
+  0.09738998626308559,
+  0.12266590876794088,
+  0.12416275875136185,
+  0.10763109279522524,
+  0.0923499597366302,
+  0.45580029368575625
+ ]
+}

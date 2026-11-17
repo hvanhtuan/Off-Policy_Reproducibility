@@ -1,0 +1,49 @@
+{
+ "args": {
+  "csv": "seg.csv",
+  "out": "results/benchmark",
+  "tag": "abl_timing",
+  "e0": 6.0,
+  "expense": 0.2,
+  "grid": 6,
+  "delay": 0.0,
+  "adjust": 0,
+  "reps": 40,
+  "n": 20000,
+  "rep0": 0,
+  "nboot": 200,
+  "scales": "0.10,inf",
+  "link": "logit",
+  "clv": 0.0,
+  "dropvars": "Policies_in_force,Max_policies,Max_products",
+  "nohist": 1,
+  "group": 1,
+  "delay_assumed": -1.0,
+  "dataset": "segura",
+  "lr_target": 0.65
+ },
+ "Vtrue": {
+  "oracle": 111.00861097040718,
+  "oracle_cap10": 108.94961829155899,
+  "shift_up": 101.64913863819588,
+  "hold": 100.4308943881583,
+  "engine": 101.23620125922064
+ },
+ "implied_elasticity": 1.9805790748184318,
+ "oracle_action_shares": [
+  0.02131590166264033,
+  0.08488465728766993,
+  0.16152716593245228,
+  0.19047889725735398,
+  0.16026715930083843,
+  0.38152621855904506
+ ],
+ "engine_action_shares": [
+  0.0929657524513287,
+  0.14462602434749658,
+  0.2443939178627256,
+  0.27579934631234904,
+  0.16423665387712566,
+  0.07797830514897447
+ ]
+}

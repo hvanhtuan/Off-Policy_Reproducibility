@@ -1,0 +1,1 @@
+SCORE_VARIANCE {"tag": "p1", "n_all": 105555, "meanP0": 315.8925572450381, "V_oracle": 113.4134136863945, "margin_pct_of_premium": 35.902527959346514, "sd_R": 248.01236142656788, "sd_psi_unit": 583.4069223755763, "pred_sd_DR_uniform_n20000": 4.125309910029437, "mean_R_uniform": 99.09750273911408, "renew_rate": 0.7958599782104117}

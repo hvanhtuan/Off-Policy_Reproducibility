@@ -1,0 +1,39 @@
+{
+ "args": {
+  "csv": "seg.csv",
+  "out": "results/benchmark",
+  "tag": "nh_exp10",
+  "e0": 6.0,
+  "expense": 0.1,
+  "grid": 6,
+  "delay": 0.0,
+  "adjust": 0,
+  "reps": 24,
+  "n": 20000,
+  "nboot": 200,
+  "scales": "0.01,0.03,0.10,inf",
+  "link": "logit",
+  "clv": 0.0,
+  "nohist": 1,
+  "group": 1,
+  "delay_assumed": -1.0,
+  "dataset": "segura",
+  "lr_target": 0.65
+ },
+ "Vtrue": {
+  "oracle": 136.6919187431488,
+  "oracle_cap10": 134.83265790821238,
+  "shift_up": 124.11860412652888,
+  "hold": 126.64628201617454,
+  "engine": 125.28614898382807
+ },
+ "implied_elasticity": 1.9729615579343716,
+ "oracle_action_shares": [
+  0.051726588034673865,
+  0.12358486097295249,
+  0.1832788593624177,
+  0.17182511486902563,
+  0.1338354412391644,
+  0.3357491355217659
+ ]
+}
